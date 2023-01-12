@@ -1,0 +1,4 @@
+baseURL = 'https://ojhoney.github.io'
+languageCode = 'ko-KR' #'en-us'
+title = 'Just For Fun'
+theme = "PaperMod"
