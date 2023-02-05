@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogging on Just For Fun</title>
+    <link>https://ojhoney.github.io/posts/blogging/</link>
+    <description>Recent content in Blogging on Just For Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ojhoney.github.io/posts/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>markdown playground</title>
+      <link>https://ojhoney.github.io/posts/blogging/markdown_features/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/blogging/markdown_features/</guid>
+      <description>This is summary for markdown playground</description>
+    </item>
+    
+    <item>
+      <title>LaTex Guide</title>
+      <link>https://ojhoney.github.io/posts/blogging/latex_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/blogging/latex_guide/</guid>
+      <description>This is summary</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Just For Fun</title>
-    <link>https://ojhoney.github.io/</link>
-    <description>Recent content on Just For Fun</description>
+    <title>Problem Solving on Just For Fun</title>
+    <link>https://ojhoney.github.io/posts/problem_solving/</link>
+    <description>Recent content in Problem Solving on Just For Fun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ojhoney.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>markdown playground</title>
-      <link>https://ojhoney.github.io/posts/blogging/markdown_features/</link>
-      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ojhoney.github.io/posts/blogging/markdown_features/</guid>
-      <description>This is summary for markdown playground</description>
-    </item>
-    
+    <lastBuildDate>Tue, 08 Nov 2022 21:32:33 +0900</lastBuildDate><atom:link href="https://ojhoney.github.io/posts/problem_solving/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Go][Python] PS를 위한 입출력</title>
       <link>https://ojhoney.github.io/posts/problem_solving/my-first-post/</link>
@@ -26,24 +17,6 @@
 이 문제에 대한 해결방법으로 테스트 케이스를 문자열 변수 sample로 저장하고 처리하는 방법에 대해 소개한다.
 Python 빠른 입력을 위하여 sys.stdin.readline 함수를 사용하는 경우가 많다. 한 줄 씩 읽어오므로 이에 맞게 테스트 케이스 문자열 또한 수정해준다.
 # 따옴표 세 개로 묶으면 개행이 포함된 문자열을 표현할 수 있다 sample = &amp;#34;&amp;#34;&amp;#34;5 1 2 3 4 5&amp;#34;&amp;#34;&amp;#34; sample = iter(sample.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ojhoney.github.io/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ojhoney.github.io/about/about/</guid>
-      <description>Hello</description>
-    </item>
-    
-    <item>
-      <title>LaTex Guide</title>
-      <link>https://ojhoney.github.io/posts/blogging/latex_guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ojhoney.github.io/posts/blogging/latex_guide/</guid>
-      <description>This is summary</description>
     </item>
     
   </channel>
