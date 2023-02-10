@@ -76,8 +76,8 @@ params:
     linkFullImages: true
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/ojhoney/ojhoney.github.io/tree/main/content"
+    Text: "Markdown" # edit text
     appendFilePath: true # to append file path to Edit link
   
 
@@ -125,11 +125,11 @@ params:
 menu:
   main:
     - identifier: categories
-      name: "ProblemSolving"
-      url: /posts/problem_solving/
+      name: "Posts"
+      url: /posts
       weight: 1000
     - identifier: tags
-      name: tags
+      name: "Tags"
       url: /tags/
       weight: 20
     # - identifier: example
