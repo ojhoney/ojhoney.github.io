@@ -29,21 +29,21 @@ Python 빠른 입력을 위하여 sys.stdin.readline 함수를 사용하는 경�
     </item>
     
     <item>
-      <title></title>
-      <link>https://ojhoney.github.io/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ojhoney.github.io/about/about/</guid>
-      <description>Hello</description>
-    </item>
-    
-    <item>
       <title>LaTex Guide</title>
       <link>https://ojhoney.github.io/posts/blogging/latex_guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ojhoney.github.io/posts/blogging/latex_guide/</guid>
       <description>This is summary</description>
+    </item>
+    
+    <item>
+      <title>OJ</title>
+      <link>https://ojhoney.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ojhoney.github.io/about/</guid>
+      <description>Yeaha</description>
     </item>
     
   </channel>
