@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Problem Solving on Just For Fun</title>
+    <link>https://ojhoney.github.io/posts/problem_solving/</link>
+    <description>Recent content in Problem Solving on Just For Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Tue, 08 Nov 2022 21:32:33 +0900</lastBuildDate><atom:link href="https://ojhoney.github.io/posts/problem_solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Go][Python] PS를 위한 입출력</title>
+      <link>https://ojhoney.github.io/posts/problem_solving/my-first-post/</link>
+      <pubDate>Tue, 08 Nov 2022 21:32:33 +0900</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/problem_solving/my-first-post/</guid>
+      <description>Intro 알고리즘 문제풀이 시, 우선적으로 하나의 테스트 케이스를 상정하고 문제를 풀어나가는 경우가 많다. debugger를 실행할 때마다 매번 같은 테스트케이스를 복붙하는 것은 매우 귀찮은 일이다. 또한, Notebook 환경에서 표준입력은 사용하기 매우 번거롭다.
+이 문제에 대한 해결방법으로 테스트 케이스를 문자열 변수 sample로 저장하고 처리하는 방법에 대해 소개한다.
+Python 빠른 입력을 위하여 sys.stdin.readline 함수를 사용하는 경우가 많다. 한 줄 씩 읽어오므로 이에 맞게 테스트 케이스 문자열 또한 수정해준다.
+# 따옴표 세 개로 묶으면 개행이 포함된 문자열을 표현할 수 있다 sample = &amp;#34;&amp;#34;&amp;#34;5 1 2 3 4 5&amp;#34;&amp;#34;&amp;#34; sample = iter(sample.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,20 +4,56 @@
     <title>Just For Fun</title>
     <link>https://ojhoney.github.io/</link>
     <description>Recent content on Just For Fun</description>
-    <image>
-      <url>https://ojhoney.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://ojhoney.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 08 Nov 2022 21:32:33 +0900</lastBuildDate><atom:link href="https://ojhoney.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 21:32:33 +0900</lastBuildDate><atom:link href="https://ojhoney.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://ojhoney.github.io/posts/my-first-post/</link>
+      <title>[Airflow] Cross-DAG Dependency</title>
+      <link>https://ojhoney.github.io/posts/data-engineering/cross-dag-dependency/</link>
+      <pubDate>Thu, 30 Mar 2023 21:32:33 +0900</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/data-engineering/cross-dag-dependency/</guid>
+      <description>Introduction 워크플로를 운영/개발하다 보면 서로 다른 DAG에 있는 Task 들간에 의존성을 설정할 필요가 있습니다. 예를 들어, 1시간 주기로 돌아가는 DAG(hourly)의 23시~24시 Dag Run 이 끝난 뒤, 하루 주기로 돌아가는 DAG(daily)가 시작되야하는 경우가 있습니다. 이러한 경우에 가장 간단한 해결법은 hourly DAG가 끝나는 시간을 예상해, 이보다 늦은 시간에 daily DAG의 스케쥴을 설정하는 것입니다.
+DAG Schedule Duration hourly 0 * * * * About 10 min. daily 30 0 * * * - 위와 같이 hourly DAG 의 통상 소요시간이 10분이라면, daily DAG의 분 스케쥴을 30분으로 설정하는 것만으로 hourly DAG의 23시~24시 Run이 끝난 후에 daily DAG 가 실행될 것입니다.</description>
+    </item>
+    
+    <item>
+      <title>markdown playground</title>
+      <link>https://ojhoney.github.io/posts/blogging/markdown_features/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/blogging/markdown_features/</guid>
+      <description>This is summary for markdown playground</description>
+    </item>
+    
+    <item>
+      <title>[Go][Python] PS를 위한 입출력</title>
+      <link>https://ojhoney.github.io/posts/problem_solving/my-first-post/</link>
       <pubDate>Tue, 08 Nov 2022 21:32:33 +0900</pubDate>
       
-      <guid>https://ojhoney.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://ojhoney.github.io/posts/problem_solving/my-first-post/</guid>
+      <description>Intro 알고리즘 문제풀이 시, 우선적으로 하나의 테스트 케이스를 상정하고 문제를 풀어나가는 경우가 많다. debugger를 실행할 때마다 매번 같은 테스트케이스를 복붙하는 것은 매우 귀찮은 일이다. 또한, Notebook 환경에서 표준입력은 사용하기 매우 번거롭다.
+이 문제에 대한 해결방법으로 테스트 케이스를 문자열 변수 sample로 저장하고 처리하는 방법에 대해 소개한다.
+Python 빠른 입력을 위하여 sys.stdin.readline 함수를 사용하는 경우가 많다. 한 줄 씩 읽어오므로 이에 맞게 테스트 케이스 문자열 또한 수정해준다.
+# 따옴표 세 개로 묶으면 개행이 포함된 문자열을 표현할 수 있다 sample = &amp;#34;&amp;#34;&amp;#34;5 1 2 3 4 5&amp;#34;&amp;#34;&amp;#34; sample = iter(sample.</description>
+    </item>
+    
+    <item>
+      <title>LaTex Guide</title>
+      <link>https://ojhoney.github.io/posts/blogging/latex_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/blogging/latex_guide/</guid>
+      <description>This is summary</description>
+    </item>
+    
+    <item>
+      <title>OJ</title>
+      <link>https://ojhoney.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ojhoney.github.io/about/</guid>
+      <description>Yeaha</description>
     </item>
     
   </channel>
