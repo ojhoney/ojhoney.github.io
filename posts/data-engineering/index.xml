@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Engineer Stuff on Just For Fun</title>
+    <link>https://ojhoney.github.io/posts/data-engineering/</link>
+    <description>Recent content in Data Engineer Stuff on Just For Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Thu, 30 Mar 2023 21:32:33 +0900</lastBuildDate><atom:link href="https://ojhoney.github.io/posts/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Airflow] Cross-DAG Dependency</title>
+      <link>https://ojhoney.github.io/posts/data-engineering/cross-dag-dependency/</link>
+      <pubDate>Thu, 30 Mar 2023 21:32:33 +0900</pubDate>
+      
+      <guid>https://ojhoney.github.io/posts/data-engineering/cross-dag-dependency/</guid>
+      <description>Introduction 워크플로를 운영/개발하다 보면 서로 다른 DAG에 있는 Task 들간에 의존성을 설정할 필요가 있습니다. 예를 들어, 1시간 주기로 돌아가는 DAG(hourly)의 23시~24시 Dag Run 이 끝난 뒤, 하루 주기로 돌아가는 DAG(daily)가 시작되야하는 경우가 있습니다. 이러한 경우에 가장 간단한 해결법은 hourly DAG가 끝나는 시간을 예상해, 이보다 늦은 시간에 daily DAG의 스케쥴을 설정하는 것입니다.
+DAG Schedule Duration hourly 0 * * * * About 10 min. daily 30 0 * * * - 위와 같이 hourly DAG 의 통상 소요시간이 10분이라면, daily DAG의 분 스케쥴을 30분으로 설정하는 것만으로 hourly DAG의 23시~24시 Run이 끝난 후에 daily DAG 가 실행될 것입니다.</description>
+    </item>
+    
+  </channel>
+</rss>
