@@ -24,7 +24,7 @@ params:
     imageUrl: "/nyong-nyong.png"
     imageWidth: 200
     imageHeight: 200
-    imageTitle: unlucky ogu
+    imageTitle: nyong nyong
     buttons:
       - name: About
         url: about
